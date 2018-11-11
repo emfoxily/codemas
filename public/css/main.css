@@ -23,8 +23,9 @@ body {
 
 button {
   background: rgb(255, 245, 54);
+  padding: 2%;
   font-weight: 600;
-  font-size: 2vw;
+  font-size: 1vw;
   text-transform: uppercase;
   color: rgb(221, 0, 113);
   border: none;
@@ -33,11 +34,23 @@ button {
   cursor: pointer;
 }
 
-/* @media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .generator {
     width: 90%;
   }
   .generator img {
-    width: 75%;
+    width: 100%;
   }
-} */
+
+  .textBox {
+    width: 45%;
+    margin-top: -90vw;
+    margin-left: 21vw;
+    font-size: 3vw;
+  }
+
+  button {
+    width: 25%;
+    font-size: 3vw;
+  }
+}
