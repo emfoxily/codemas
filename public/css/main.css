@@ -1,0 +1,43 @@
+body {
+  background: rgb(38, 18, 81);
+}
+
+.generator {
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+}
+
+.generator img {
+  width: 25vw;
+}
+
+.textBox {
+  position: absolute;
+  width: 17.5vw;
+  margin-top: -25.5vw;
+  margin-left: 16vw;
+  font-size: 1.1vw;
+  font-weight: 600;
+}
+
+button {
+  background: rgb(255, 245, 54);
+  font-weight: 600;
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: rgb(221, 0, 113);
+  border: none;
+  outline: none;
+  border-radius: .5em;
+  cursor: pointer;
+}
+
+/* @media only screen and (max-width: 1024px) {
+  .generator {
+    width: 90%;
+  }
+  .generator img {
+    width: 75%;
+  }
+} */
