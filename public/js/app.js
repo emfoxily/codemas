@@ -122,6 +122,7 @@ class HotSauce extends React.Component {
         <button onClick={this.randomSaying}>
           random
         </button>
+        <br />
         <button>
           back to emfoxily
         </button>
