@@ -124,7 +124,7 @@ class HotSauce extends React.Component {
         </button>
         <br />
         <button>
-          back to emfoxily
+          <a href="/">back to emfoxily</a>
         </button>
       </div>
     )
