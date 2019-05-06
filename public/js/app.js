@@ -123,6 +123,7 @@ class HotSauce extends React.Component {
           random
         </button>
         <br />
+        <br />
         <button>
           <a href="/">back to emfoxily</a>
         </button>
